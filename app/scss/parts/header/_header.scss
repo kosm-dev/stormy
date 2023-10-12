@@ -5,18 +5,17 @@
 
   &__inner {
     display: flex;
+    align-items: center;
     width: 100%;
     max-width: 1755px;
     margin: 0 auto;
-  }
-  &__logo {
   }
   &__items {
     display: flex;
     gap: 0 16px;
     margin: 0 auto;
     padding: 0 15px;
-    transform: translateX(-114px);
+    transform: translateX(-50px);
   }
   &__nav-item {
     padding-right: 16px;

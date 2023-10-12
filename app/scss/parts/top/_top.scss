@@ -1,0 +1,123 @@
+.top {
+  padding-top: 139px;
+  &__content {
+    margin-bottom: 305px;
+    color: #fff;
+    text-align: center;
+  }
+  &__suptitle {
+    margin-bottom: 13px;
+    @extend %soliden-400;
+    font-size: 24px;
+    line-height: normal;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+  }
+  &__title {
+    margin-bottom: 29px;
+    @extend %soliden-700;
+    font-size: 64px;
+    line-height: normal;
+  }
+  &__items {
+    display: flex;
+    gap: 0 44px;
+  }
+  
+}
+
+.top-item {
+  position: relative;
+  width: 100%;
+  max-width: 360px;
+
+  border-radius: 26px;
+  border: 1px solid #333;
+  background: #151515;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 46px;
+  padding-right: 57px;
+  &.top-item--special {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  &__icon {
+    position: absolute;
+    top: -28px;
+    left: -18px;
+    padding: 28px;
+    border-radius: 6px;
+    border: 1px solid #333;
+    background: #1e1e1e;
+  }
+  &__icon img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+  }
+  &__suptitle {
+    margin-bottom: 26px;
+    color: #725fed;
+    @extend %soliden-400;
+    font-size: 12px;
+    line-height: normal;
+  }
+  &__title {
+    margin-bottom: 32px;
+    color: #fff;
+    @extend %soliden-700;
+    font-size: 16px;
+    line-height: normal;
+  }
+  &__text p:not(:last-child) {
+    @extend %gilroy-400;
+    margin-bottom: 23px;
+  }
+}
+
+.top-item--special > .top-item__suptitle,
+.top-item--special > .top-item__title {
+  padding-left: 46px;
+  padding-right: 30px;
+}
+
+.top-list {
+  & li:not(:last-child) {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #333;
+  }
+  & li:not(:first-child) {
+    padding-top: 16px;
+  }
+  &__content {
+    display: flex;
+    padding-left: 13px;
+    padding-right: 30px;
+    @extend %gilroy-400;
+  }
+  &__value {
+    margin-right: 18px;
+    width: 100%;
+    max-width: 42px;
+    color: #fff;
+    @extend %gilroy-700;
+    font-size: 24px;
+    line-height: normal;
+  }
+  
+}
+
+.top-item__text p > span {
+  display: inline-block;
+  @extend %gilroy-700;
+  font-size: 16px;
+  line-height: normal;
+}
+
+.top-list__text > span {
+   @extend %gilroy-700;
+  font-size: 16px;
+  line-height: normal;
+}
