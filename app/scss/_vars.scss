@@ -5,3 +5,28 @@ $lg: 992px;
 $md: 768px;
 $sm: 576px;
 $xs: 374px;
+
+// colors
+
+$default: #929292;
+
+
+%gilroy-400{
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 400;
+}
+
+%gilroy-700{
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 700;
+}
+
+%soliden-400{
+  font-family: 'Soliden Trial', sans-serif;
+  font-weight: 400;
+}
+
+%soliden-700{
+  font-family: 'Soliden Trial', sans-serif;
+  font-weight: 700;
+}
