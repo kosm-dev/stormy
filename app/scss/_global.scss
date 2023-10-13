@@ -59,6 +59,11 @@ body {
   color: #fff;
   background-color: $accent;
   border-radius: 6px;
+  transition: all .2s;
+}
+
+.link:hover {
+  background-color: #725FED;
 }
 
 .link-special {
