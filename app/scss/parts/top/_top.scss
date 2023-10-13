@@ -1,5 +1,10 @@
 .top {
   padding-top: 139px;
+  padding-bottom: 140px;
+  background-image: url(../images/main-top.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top center;
   &__content {
     margin-bottom: 305px;
     color: #fff;
@@ -21,9 +26,13 @@
   }
   &__items {
     display: flex;
-    gap: 0 44px;
+    gap: 44px 44px;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1585px;
+    margin: 0 auto;
+    justify-content: center;
   }
-  
 }
 
 .top-item {
@@ -106,7 +115,6 @@
     font-size: 24px;
     line-height: normal;
   }
-  
 }
 
 .top-item__text p > span {
@@ -117,7 +125,59 @@
 }
 
 .top-list__text > span {
-   @extend %gilroy-700;
+  @extend %gilroy-700;
   font-size: 16px;
   line-height: normal;
+}
+
+@media (max-width: 1630px) {
+  .top-item__icon {
+    padding: 22px;
+  }
+  .top-item__icon img {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+@media (max-width: 992px) {
+  
+  .top__title {
+    margin-bottom: 20px;
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .top {
+    padding-top: 173px;
+  }
+  .top__title {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 576px) {
+  .top__suptitle {
+    margin-bottom: 7px;
+    font-size: 12px;
+    letter-spacing: 1.2px;
+  }
+  .top__title {
+    font-size: 24px;
+  }
+  .top__items {
+    gap: 64px 44px;
+  }
+  .top-item {
+    padding-top: 58px;
+    padding-bottom: 58px;
+    padding-left: 38px;
+    padding-right: 38px;
+  }
+
+  .top-item__icon {
+    top: -23px;
+    left: -12px;
+  }
 }

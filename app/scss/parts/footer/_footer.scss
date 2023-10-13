@@ -1,12 +1,38 @@
 .footer {
   padding-top: 221px;
   padding-bottom: 212px;
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   &__content {
+    margin-bottom: 15px;
     display: flex;
     justify-content: center;
     color: #d9d9d9;
     @extend %soliden-700;
     font-size: 32px;
     line-height: normal;
+  }
+  &__logo {
+    display: none;
+  }
+  &__logo img {
+    width: 41px;
+    height: 41px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding-top: 77px;
+    padding-bottom: 27px;
+  }
+  .footer__content {
+    font-size: 14px;
+  }
+  .footer__logo {
+    display: block;
   }
 }
