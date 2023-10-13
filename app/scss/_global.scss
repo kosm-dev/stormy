@@ -12,7 +12,6 @@ body {
   overflow-x: hidden;
 
   background: linear-gradient(180deg, #161616 0%, #161616 100%);
-
 }
 
 .lock {
@@ -54,12 +53,33 @@ body {
   min-height: 42px;
   min-width: 149px;
   padding: 12px;
-  
+
   @extend %soliden-700;
   font-size: 16px;
   color: #fff;
   background-color: $accent;
   border-radius: 6px;
+}
+
+.link-special {
+  display: inline-flex;
+  justify-content: center;
+  min-height: 42px;
+  min-width: 149px;
+  padding: 12px;
+
+  @extend %soliden-700;
+  font-size: 16px;
+  color: #fff;
+  background-color: transparent;
+  border-radius: 6px;
+  border: 1px solid #7e81ff;
+  transition: all .2s;
+}
+
+.link-special:hover {
+  border: 1px solid #2d32ff;
+  background: #2d32ff;
 }
 
 // .container-fluid {

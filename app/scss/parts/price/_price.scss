@@ -1,0 +1,128 @@
+.main {
+  &__price {
+  }
+}
+.price {
+  &__inner {
+  }
+  &__title {
+    padding-left: 125px;
+    color: #d9d9d9;
+    @extend %soliden-400;
+    font-size: 64px;
+    line-height: normal;
+  }
+  &__items {
+    display: flex;
+    gap: 0 36px;
+  }
+  &__item {
+  }
+}
+
+.price-item {
+  width: 100%;
+  max-width: 377px;
+  padding-top: 48px;
+  padding-bottom: 35px;
+  padding-left: 27px;
+  padding-right: 45px;
+  border-radius: 6px;
+  border: 1px solid #333;
+  background-color: #151515;
+  &__top {
+    margin-bottom: 37px;
+  }
+  &__top-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+  }
+  &__top-icon {
+    margin-right: 16px;
+  }
+  &__top-icon img {
+    width: 36px;
+    height: 36px;
+  }
+  &__top-title {
+    @extend %soliden-700;
+    font-size: 36px;
+    line-height: normal;
+    color: #fff;
+  }
+  &__top-subtitle {
+    min-height: 36px;
+    @extend %soliden-400;
+    font-size: 16px;
+    line-height: normal;
+    color: #fff;
+  }
+  &__cost {
+    margin-bottom: 37px;
+  }
+  &__cost-suptitle {
+    margin-bottom: 7px;
+    @extend %soliden-400;
+    font-size: 16px;
+    line-height: normal;
+    color: #fff;
+  }
+  &__cost-value {
+    margin-bottom: 7px;
+    @extend %gilroy-400;
+    font-size: 64px;
+    line-height: normal;
+    color: #fff;
+  }
+  &__cost-subtitle {
+    @extend %soliden-400;
+    font-size: 16px;
+    line-height: normal;
+    color: #fff;
+  }
+  &__list {
+  }
+  &__links {
+    display: flex;
+    justify-content: center;
+  }
+  &__link {
+  }
+}
+.price-info {
+  margin-bottom: 70px;
+  & li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  & li:not(:last-child) {
+    margin-bottom: 16px;
+  }
+  &__text {
+    display: flex;
+    align-items: center;
+    @extend %soliden-400;
+    font-size: 16px;
+    line-height: normal;
+    color: #fff;
+  }
+   &__icon {
+    margin-right: 9px;
+   }
+  &__icon img {
+    width: 36px;
+    height: 36px;
+  }
+  &__value {
+    width: 100%;
+    max-width: 96px;
+    @extend %gilroy-400;
+    font-size: 16px;
+    line-height: normal;
+    color: #fff;
+  }
+   
+}
+
