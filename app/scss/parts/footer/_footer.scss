@@ -1,6 +1,21 @@
 .footer {
+  overflow-x: hidden;
+  position: relative;
   padding-top: 221px;
   padding-bottom: 212px;
+  &:before {
+    content: "";
+    width: 514px;
+    height: 514px;
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    left: 0;
+    border-radius: 50%;
+    background-color: #0f0f0f;
+    filter: blur(500px);
+  }
+
   &__inner {
     display: flex;
     flex-direction: column;
@@ -34,5 +49,20 @@
   }
   .footer__logo {
     display: block;
+  }
+}
+
+@media (max-width: 576px) {
+  .footer:before {
+    content: "";
+    width: 514px;
+    height: 514px;
+    position: absolute;
+    z-index: -1;
+    bottom: 360px;
+    left: 0;
+    border-radius: 50%;
+    background: #10126f;
+    filter: blur(500px);
   }
 }

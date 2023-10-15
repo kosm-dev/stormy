@@ -78,76 +78,73 @@
 }
 
 @media (max-width: 992px) {
-  .features__title {
-    font-size: 36px;
-  }
-
   .features__inner {
-    padding-top: 60px;
-    padding-bottom: 130px;
+    padding-top: 30px;
+    padding-bottom: 132px;
     padding-left: 30px;
     padding-right: 30px;
   }
-  .features__items {
-    max-width: none;
-    justify-content: center;
+  .features__title {
+    font-size: 24px;
+    line-height: 29px;
   }
-}
-
-@media (max-width: 860px) {
+  .features__items {
+    justify-content: center;
+    max-width: none;
+    gap: 6px 6px;
+  }
+  .features-item {
+    max-width: 155px;
+    padding-top: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+  }
   .features-item__icon img {
     width: 24px;
     height: 24px;
   }
-}
-
-@media (max-width: 680px) {
-  .features-item {
-    max-width: 225px;
-    padding-top: 15px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 15px;
-  }
-
   .features-item__icon {
     margin-bottom: 10px;
-  }
-}
-
-@media (max-width: 576px) {
-  .features__inner-content {
-    align-items: center;
-  }
-  .features__title {
-    max-width: 278px;
-    font-size: 24px;
-    line-height: 28.68px;
-    text-align: center;
-  }
-  .features__inner {
-    padding-top: 60px;
-    padding-bottom: 130px;
-    padding-left: 5px;
-    padding-right: 5px;
   }
   .features-item__content {
     font-size: 10px;
     line-height: 13px;
   }
-  .features-item__content>span {
+  .features-item__content > span {
     font-size: 10px;
-}
+  }
 }
 
-@media (max-width: 530px) {
-  .features__item {
+@media (max-width: 768px) {
+  .features__title {
+    text-align: center;
+  }
+}
+@media (max-width: 576px) {
+  .features__inner {
+    padding-top: 35px;
+    padding-bottom: 132px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .features-item {
     max-width: 165px;
   }
 }
 
-@media (max-width: 476px) {
-  .features__item {
-    max-width: 150px;
+@media (max-width: 400px) {
+  .features-item {
+    max-width: 155px;
   }
 }
+
+@media (max-width: 370px) {
+  .features__items {
+    gap: 8px 8px;
+  }
+  .features-item {
+    max-width: 135px;
+  }
+}
+
