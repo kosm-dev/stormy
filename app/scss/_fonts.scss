@@ -2,8 +2,7 @@
   font-family: 'Gilroy';
   font-weight: 400;
   font-style: normal;
-  src: local('Gilroy Regular'),
-    url('../fonts/Gilroy-Regular.woff2') format('woff2'),
+  src: url('../fonts/Gilroy-Regular.woff2') format('woff2'),
     url('../fonts/Gilroy-Regular.woff') format('woff');
   font-display: swap;
 }
@@ -13,29 +12,26 @@
   font-family: 'Gilroy';
   font-weight: 700;
   font-style: normal;
-  src: local('Gilroy Bold'),
-    url('../fonts/Gilroy-Bold.woff2') format('woff2'),
+  src: url('../fonts/Gilroy-Bold.woff2') format('woff2'),
     url('../fonts/Gilroy-Bold.woff') format('woff');
   font-display: swap;
 }
 
 
 @font-face {
-  font-family: 'Soliden Trial';
+  font-family: 'SolidenTrial';
   font-weight: 400;
   font-style: normal;
-  src: local('Soliden Trial Regular'),
-    url('../fonts/Soliden-Trial-Regular.woff2') format('woff2'),
+  src: url('../fonts/Soliden-Trial-Regular.woff2') format('woff2'),
     url('../fonts/Soliden-Trial-Regular.woff') format('woff');
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Soliden Trial';
+  font-family: 'SolidenTrial';
   font-weight: 700;
   font-style: normal;
-  src: local('Soliden Trial Regular'),
-    url('../fonts/Soliden-Trial-Regular.woff2') format('woff2'),
+  src: url('../fonts/Soliden-Trial-Regular.woff2') format('woff2'),
     url('../fonts/Soliden-Trial-Regular.woff') format('woff');
   font-display: swap;
 }
